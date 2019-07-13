@@ -43,15 +43,7 @@
 .services-header p{
     width: 80%;
 }
-.testimonial-inner{
-    width:100%;
-}
-/* .testimonial-inner h4 ,
-.testimonial-inner p ,
-.testimonial-inner h3
-{
-    margin-left: 0;
-} */
+
 }
 
 @media (max-width:576px){
@@ -65,23 +57,13 @@
     .counter{
         flex: 50%;
     }
-}
-
-@media (max-width: 500px) {
-    .testimonial-inner {
-        text-align: center;
+    .testimonial-inner{
+        width:100%;
     }
-    .testimonial-inner img {
-        margin: auto;
-        float: none;
-        display: block;
-    }
-
     .testimonial-inner h4 ,
     .testimonial-inner p ,
     .testimonial-inner h3
     {
         margin-left: 0;
     }
-  }
-
+}
