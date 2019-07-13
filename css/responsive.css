@@ -57,7 +57,7 @@
     .counter{
         flex: 50%;
     }
-    .testimonial-inner{
+    /* .testimonial-inner{
         width:100%;
     }
     .testimonial-inner h4 ,
@@ -65,5 +65,5 @@
     .testimonial-inner h3
     {
         margin-left: 0;
-    }
+    } */
 }
