@@ -46,6 +46,12 @@
 .testimonial-inner{
     width:100%;
 }
+/* .testimonial-inner h4 ,
+.testimonial-inner p ,
+.testimonial-inner h3
+{
+    margin-left: 0;
+} */
 }
 
 @media (max-width:576px){
@@ -62,11 +68,20 @@
 }
 
 @media (max-width: 500px) {
-  .testimonial-inner h4 ,
-.testimonial-inner p ,
-.testimonial-inner h3
-{
-    margin-left: 0;
-}
+    .testimonial-inner {
+        text-align: center;
+    }
+    .testimonial-inner img {
+        margin: auto;
+        float: none;
+        display: block;
+    }
+
+    .testimonial-inner h4 ,
+    .testimonial-inner p ,
+    .testimonial-inner h3
+    {
+        margin-left: 0;
+    }
   }
 
