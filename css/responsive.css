@@ -43,7 +43,9 @@
 .services-header p{
     width: 80%;
 }
-
+.testimonial-inner{
+    width: 100%;
+}
 }
 
 @media (max-width:576px){
@@ -73,9 +75,4 @@
     .testimonial-inner h3
     {
         margin-left: 0;
-    }
-
-    .testimonial-inner{
-        width: 100%;
-    }
-  }
+    }}
