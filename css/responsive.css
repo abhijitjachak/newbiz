@@ -1,7 +1,8 @@
 @media (max-width:991px){
-    .about-header p, .services-header p, .choose-us-header p, .team-section p, .client-header p{
-        width:70%;
-    }
+  
+.about-header p, .services-header p, .choose-us-header p, .team-section p, .client-header p{
+    width:70%;
+}
 .slider-info{
     order:2;
 }
@@ -47,6 +48,13 @@
 
 @media (max-width:576px){
     .contact-info .row div{
-     margin:20px 0;       
+        margin:20px 0;       
+       }
+
+    .choose-us-section .choose-us-box .counter-section {
+        flex-wrap: wrap;
+    }
+    .counter{
+        flex: 50%;
     }
 }
