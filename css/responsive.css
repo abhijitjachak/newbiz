@@ -50,8 +50,8 @@
     .contact-info .row div{
         margin:20px 0;       
        }
-
-    .choose-us-section .choose-us-box .counter-section {
+       
+    .choose-us-section .choose-us-box .counter-section{
         flex-wrap: wrap;
     }
     .counter{
@@ -60,10 +60,6 @@
     .testimonial-inner{
         width:100%;
     }
-}
-
-
-@media (max-width:800px){
     .testimonial-inner h4 ,
     .testimonial-inner p ,
     .testimonial-inner h3
