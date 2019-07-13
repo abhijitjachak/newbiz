@@ -60,7 +60,10 @@
     .testimonial-inner{
         width:100%;
     }
+}
 
+
+@media (max-width:800px){
     .testimonial-inner h4 ,
     .testimonial-inner p ,
     .testimonial-inner h3
