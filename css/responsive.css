@@ -60,4 +60,11 @@
     .testimonial-inner{
         width:100%;
     }
+
+    .testimonial-inner h4 ,
+    .testimonial-inner p ,
+    .testimonial-inner h3
+    {
+        margin-left: 0;
+    }
 }
