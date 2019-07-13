@@ -471,17 +471,6 @@ testimonials section css start
   margin-right: 15px;
 }
 
-@media (max-width: 500px) {
-  .testimonial-inner {
-      text-align: center;
-  }
-  .testimonial-inner img {
-      margin: auto;
-      float: none;
-      display: block;
-  }
-}
-
 .testimonial-inner h3 {
   font-size: 20px;
   font-weight: bold;

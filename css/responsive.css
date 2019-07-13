@@ -67,3 +67,14 @@
     }
 }
 
+@media (max-width: 500px) {
+    .testimonial-inner {
+        text-align: center;
+    }
+    .testimonial-inner img {
+        margin: auto;
+        float: none;
+        display: block;
+    }
+  }
+
