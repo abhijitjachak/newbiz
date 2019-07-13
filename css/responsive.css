@@ -43,10 +43,18 @@
 .services-header p{
     width: 80%;
 }
-
+.testimonial-inner{
+    width:100%;
+}
+.testimonial-inner h4 ,
+.testimonial-inner p ,
+.testimonial-inner h3
+{
+    margin-left: 0;
+}
 }
 
-@media (max-width:580px){
+@media (max-width:576px){
     .contact-info .row div{
         margin:20px 0;       
        }
@@ -57,13 +65,5 @@
     .counter{
         flex: 50%;
     }
-    .testimonial-inner{
-        width:100%;
-    }
-    .testimonial-inner h4 ,
-    .testimonial-inner p ,
-    .testimonial-inner h3
-    {
-        margin-left: 0;
-    }
 }
+
