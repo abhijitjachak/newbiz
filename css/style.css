@@ -1,0 +1,718 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+
+html , 
+body {
+  background: #fff;
+  color: #444;  
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+
+a { text-decoration: none; }
+
+.c-white{ color: white; }
+
+.t-center{ text-align: center; }
+
+.f-clear{ clear: both; }
+
+.pt-60{ padding-top: 60px !important; }
+
+.pb-60{ padding-bottom: 60px !important; }
+
+.mt-60{ margin-top: 60px !important; }
+
+li { list-style-type: none; }
+
+
+a:hover {
+  text-decoration: none;
+
+}
+    
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+
+/* ==========================================================================
+Header section css start
+========================================================================== */
+#header{
+    padding: 15px 0;
+}
+
+.main-nav .nav-collapse-nav ul li .nav-link {
+  color: #004289;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  padding: 15px 13px;
+}
+
+.main-nav .nav-collapse-nav ul .active-link a:nth-of-type(1) {
+  color: #007bff;
+}
+
+.main-nav .nav-collapse-nav ul li .nav-link:hover { 
+  color: #007bff;
+  text-decoration: none;
+}
+
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+.logo img {
+  max-height: 26px;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+.dropdown-item {
+  padding: 10px 15px;
+  font-size: 13px;
+  color: #004289;
+}
+
+.navbar-nav{
+  margin-right: 5px;
+}
+
+.mob-dropdown {
+  color: #004289;
+  font-size: 24px;
+}
+
+.navbar-light .navbar-toggler{
+  border: 0;
+}
+/* ==========================================================================
+slider  section css start
+========================================================================== */
+.slider {
+  background: url(../images/intro-bg.png) center bottom no-repeat;
+  background-size: cover;
+  padding: 102px 0 120px 0;
+}
+
+.slider-img img{
+  width:100%;
+}
+
+.slider h1{
+  color: #fff;
+  margin-bottom: 40px;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.slider h1 span{
+  color: #74b5fc;
+  text-decoration: underline;
+}
+
+.btn-primary{
+  padding: 10px 32px;
+  border-radius: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  border: 2px solid #007bff;
+  margin: 0 20px 20px 0;
+  letter-spacing: 1px ;
+}
+
+.btn-primary:hover {
+  background-color:#1545b3;
+  border: 2px solid white; 
+  transition: 1s all;
+}
+
+.btn-service {
+  background-color: #1545b3;
+  border: 2px solid #1545b3;
+  font-family: "Montserrat", sans-serif;
+  margin: 0 20px 20px 0;
+  border: 2px solid white;
+}
+
+.btn-service:hover {
+background-color: #007bff;
+border: 2px solid #007bff;
+}
+
+.slider-img:hover,
+.first-extra-about img:hover,
+.second-extra-about img:hover,
+.about-img:hover
+{
+  transform: scale(1.05) translateY(-4px);
+  transition: all 1s ease;
+}
+
+/* ==========================================================================
+About section css start
+========================================================================== */
+.about-section {
+  background: white;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.about-header p ,
+.services-header p ,
+.choose-us-header p ,
+.team-section p ,
+.client-header p{
+  margin: auto;
+  font-size: 15px;
+  color: #556877;
+  width: 50%;
+}
+
+.about-section h3 ,
+.services h3 ,
+.team-section h2 ,
+.testimonials-section h2,
+.clients-section h2,
+.contact-section h2 {
+  font-size: 36px;
+  color: #283d50;
+  font-weight: 500;
+}
+
+
+.about-section .about-main-info {
+  line-height: 26px;
+  font-size: 16px;
+  margin: 0;
+  padding-bottom: 30px;
+}
+
+.about-icon-box .icon {
+  height: 64px;
+  text-align: center;
+  width: 64px;
+  border: 2px solid #007bff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.about-icon-box:hover .icon {
+background-color: #007bff;
+transition: 1s all;
+}
+
+.about-icon-box:hover .icon i {
+  color: white;
+ 
+}
+
+.title a {
+  color: #283d50;
+}
+
+.icon i {
+  color: #007bff;
+  font-size: 24px;
+}
+
+.about-icon-box h4 {
+  margin-left: 80px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.about-icon-box .description {
+  margin-left: 80px;
+  line-height: 24px;
+  font-size: 14px;
+}
+
+.about-icon-box {
+  padding: 0 0 30px 0;
+}
+
+
+.about-img img {
+  background-size: cover;
+  width:100%;
+}
+
+/* first extra about css start
+========================================================================== */
+
+.first-extra-about img , 
+.second-extra-about img {
+  width:100%;
+}
+
+.first-extra-about-heading {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.first-extra-about-left-side {
+  font-size: 16px;
+}
+
+
+/* ==========================================================================
+services section css start
+========================================================================== */
+.services{
+  background: #ecf5ff;
+}
+
+.service-box-row {
+  margin: 0 33px;
+}
+.service-box{
+  margin: 15px 15px;
+  background: white;
+  padding: 27px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+}  
+
+.service-box .service-box-title h4{
+  margin-left: 40px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.service-box .service-box-description {
+  font-size: 14px;
+  margin-left: 40px;
+  line-height: 24px;
+  margin-bottom: 0;
+  letter-spacing: 1px;
+}
+
+.service-box .service-box-icon i {
+  color: #ff689b;
+  font-size: 60px;
+  line-height: 1;
+  transition: 0.5s;
+}
+
+.service-box .service-box-icon{
+  position: absolute;
+  left: -15px;
+  top: calc(50% - 32px);
+}
+
+.service-box .service-box-icon .fa-app-store{
+  color: #e9bf06
+}
+
+.service-box .service-box-icon .fa-map{
+  color: #3fcdc7;
+}
+
+.service-box .service-box-icon .fa-airbnb{
+  color: #41cf2e;
+}
+ 
+.service-box .service-box-icon .fa-chromecast{
+  color:#4680ff;
+}
+
+.service-box .service-box-icon .fa-connectdevelop{
+  color: #d6ff22 ;
+}
+
+.service-box:hover .service-box-title h4{
+  color: #007bff;
+}
+
+.service-box:hover,
+.team-section .row div img:hover ,
+.choose-us-box .card:hover{
+  transform: scale(1.05) translateY(-4px);
+  box-shadow: 0 0 1px rgba(0,0,0,.03), 0 8px 26px -4px rgba(0,0,0,.1), 0 -18px 35px -19px rgba(0,0,0,.2);
+  transition: all 1s ease;
+}
+
+.choose-us-section{
+  background-color: #004a99;
+  clear: both;
+}
+
+.choose-us-header p{
+  color: white;
+}
+.choose-us-header h3{
+  font-size: 36px;
+}
+
+.choose-us-box .card {
+  background: #00458f;
+  border-color: #00458f;
+  border-radius: 10px;
+  margin: 0 15px;
+  padding: 15px 0;
+  text-align: center;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+  height: 100%;
+}
+
+.choose-us-box .card i {
+  font-size: 48px;
+  padding-top: 15px;
+  color: #bfddfe;
+}
+
+.choose-us-box .card h5 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.choose-us-box .card p {
+  font-size: 15px;
+  color: #d8eafe;
+  font-weight: 600;
+}
+
+.choose-us-box .card small {
+  color: #fff;
+  font-weight: 600;
+  display: inline-block;
+  transition: 0.3s ease-in-out;
+  border-bottom: #00458f solid 2px;
+  font-size: 16px;
+}
+.choose-us-box .card small:hover{
+  border-bottom: 2px solid white;
+}
+
+.choose-us-box .card:hover {
+  background: #003b7a;
+  border-color: #003b7a;
+  transition: 1s all;
+}
+
+.counter {
+  display: table-cell;
+  font-size: 50px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+}
+
+.counter-section{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+
+/* ==========================================================================
+testimonials section css start
+========================================================================== */
+
+
+.testimonials-section {
+  
+  background: #ecf5ff;
+  box-shadow: inset 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial-inner{
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px 0;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.testimonial-inner::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.testimonial-inner img {
+  width: 120px;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  float: left;
+}
+
+.testimonial-inner span {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+@media (max-width: 500px) {
+  .testimonial-inner {
+      text-align: center;
+  }
+  .testimonial-inner img {
+      margin: auto;
+      float: none;
+      display: block;
+  }
+}
+
+.testimonial-inner h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0 5px 0;
+  color: #111;
+  margin-left: 140px;
+}
+
+.testimonial-inner p {
+  font-style: italic;
+  margin: 0 0 15px 140px;
+  font-size: 16px;
+}
+
+.testimonial-inner h4 {
+  font-size: 14px;
+  color: #999;
+  margin: 0 0 15px 0;
+  margin-left: 140px;
+}
+
+/* ==========================================================================
+Team section css start
+========================================================================== */
+
+.team-member img{
+  border-radius: 50%;
+  width: 100%;
+}
+
+.team-section .personal-info{
+  top: 0;
+  left: -5px;
+  background: pink;
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+}
+
+.team-section .personal-info{
+  display: none;
+}
+
+.team-member:hover .personal-info{
+display: block;
+}
+
+
+
+
+/* ==========================================================================
+clients section css start
+========================================================================== */
+
+.clients-section {
+  background: #ecf5ff;
+}
+
+.client-logo{
+  display: flex;
+  background: white;
+  border-right: 1px solid #d6eaff;
+  border-bottom: 1px solid #d6eaff;
+  height: 160px;
+  align-items: center;
+  justify-content: center;
+  padding: 64px;
+  overflow: hidden;
+}
+
+.clients-section .row .client-logo:hover {
+  box-shadow: 0 0 1px rgba(0,0,0,.03), 0 8px 26px -4px rgba(0,0,0,.1), 0 -18px 35px -19px rgba(0,0,0,.2);
+  transition: all 1s ease;
+  padding: 40px;
+}
+
+
+
+/* ==========================================================================
+map section css start
+========================================================================== */
+
+.map iframe{
+  width:100%;  
+  height:350px;  
+  border:0;
+}
+
+
+
+/* ==========================================================================
+contact-us section css start
+========================================================================== */
+/* .contact-section .row{
+  margin-right: -14px;
+  margin-left: -14px; 
+} */
+
+.contact-section .contact-info div i {
+  font-size: 20px;
+  color: #007bff;
+  margin-right: 10px;
+}
+.contact-section .contact-info .row i{
+  margin-right: 10px;
+}
+
+.contact-section .contact-info .row a{
+ color: #444;
+}
+
+.contact-info .row {
+  padding-bottom: 60px;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 0 -0.8rem rgba(0,123,255,.25);
+}
+
+.gm-style{
+    height: 50%;
+}
+
+.contact-info .fa-phone{
+  transform: rotate(100deg);
+}
+
+.send-btn{
+  background: #007bff;
+  border: 0;
+  border-radius: 20px;
+  padding: 8px 30px;
+  color: #fff;
+  transition: 0.3s;
+}
+
+
+/* ==========================================================================
+footer section css start
+========================================================================== */
+.footer{
+  background: #004a99;
+}
+
+.footer .container .row .logo img {
+  margin-bottom: 20px;
+}
+
+.footer  h4 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.useful-links li{
+color: white;
+padding: 8px 0;
+}
+
+.footer .footer-logo-para {
+  font-size: 13px;
+  line-height: 24px;
+  margin-bottom: 0;
+  font-family: "Montserrat", sans-serif;
+  color: #ecf5ff;
+}
+
+.useful-links li:hover{
+  color: #74b5fc;
+  transition: 1s all;
+  }
+
+.footer .address{
+  line-height: 26px;
+}
+
+.address a{
+  color: white;
+}
+
+.contact-section form .send-btn:hover {
+  background-color:#1545b3;
+  transition: 1s all;
+}
+
+.our-newsletter-para{
+  margin-bottom: 16px;
+}
+
+
+.footer .address i
+{
+font-size: 18px;
+display: inline-block;
+background: #007bff;
+color: #fff;
+line-height: 1;
+padding: 8px 0;
+margin-right: 4px;
+border-radius: 50%;
+text-align: center;
+width: 36px;
+height: 36px;
+transition: 0.3s;
+}
+
+.footer .address i:hover {
+  background: #0067d5;
+  color: #fff;
+}
+
+.footer .our-newsletter input[type="email"] {
+  border: 0;
+  padding: 3px 8px;
+  width: 60%;
+}
+
+.footer .our-newsletter input[type="submit"] {
+  background: #007bff;
+  border: 0;
+  width: 35%;
+  padding: 3px 0;
+  text-align: center;
+  color: #fff;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.footer .footer-info {
+  margin-bottom: 30px;
+}
+
+
